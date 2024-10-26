@@ -3,9 +3,9 @@ import client from "../../assets/client.svg";
 
 const Clients = () => {
   return (
-    <div className="flex flex-col h-auto mb-4">
+    <div className="flex flex-col  mb-4">
       <h1
-        className="text-[#26326D] text-[24px] font-light leading-[28.8px] tracking-[0.04em] text-left mx-6 md:mx-20 border-b border-[#747474] pb-2 w-full"
+        className="text-[#26326D] text-[24px] font-light leading-[28.8px] tracking-[0.04em] text-left mx-6 md:mx-20 border-b border-[#747474] pb-2"
         style={{ fontFamily: 'Luxora Grotesk, sans-serif' }}
       >
         Our Clients

@@ -15,7 +15,7 @@ export default function Navbar() {
     }, []);
 
     return (
-        <header className={`w-full bg-white sticky top-0 z-50 transition-shadow duration-300 ${isScrolled ? 'shadow-md' : ''}`}>
+        <header className={`w-full bg-white  top-0 z-50 duration-300`}>
             <nav className="max-w-6xl mx-auto p-4">
                 <div className="flex items-center justify-between">
                     {/* Logo Section */}
@@ -25,9 +25,9 @@ export default function Navbar() {
 
                     {/* Desktop Menu */}
                     <div className="hidden md:flex justify-center space-x-6 bg-[#EDEDEDCC] rounded-full px-6 py-2">
-                        <a href="#" className="text-gray-800 font-semibold transition-colors duration-300 hover:text-blue-600">About Us</a>
+                        <a href="/about" className="text-gray-800 font-semibold transition-colors duration-300 hover:text-blue-600">About Us</a>
                         <a href="#" className="text-gray-800 font-semibold transition-colors duration-300 hover:text-blue-600">What We Do</a>
-                        <a href="#" className="text-gray-800 font-semibold transition-colors duration-300 hover:text-blue-600">Projects</a>
+                        <a href="/projects" className="text-gray-800 font-semibold transition-colors duration-300 hover:text-blue-600">Projects</a>
                     </div>
 
                     {/* Contact Button */}

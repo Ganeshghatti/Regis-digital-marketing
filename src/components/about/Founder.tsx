@@ -15,17 +15,17 @@ const Founder = () => {
       </div>
 
       {/* Responsive Image */}
-      <div className="flex justify-center mb-4">
+      <div className="flex justify-center mb-4 ">
         <img 
           src={founder} 
           alt="Founders" 
-          className="w-full md:w-[1038px] h-auto rounded-[50px]" 
+          className="w-full md:w-[850px] h-auto rounded-[50px] " 
           style={{ maxHeight: '649px' }} 
         />
       </div>
       
       {/* Rectangle with Orange Background (Bottom Left) */}
-      <div className=" hidden md:block absolute bottom-0 left-0 w-[380px] h-[230px] bg-[#EF633D] font-[16px] mx-6 mb-8 rounded-[20px] p-6">
+      <div className=" hidden md:block absolute bottom-0 left-0 w-[380px] h-[230px] bg-[#EF633D] font-[16px] mx-16 mb-8 rounded-[20px] p-6">
         <h2 className="text-white font-bold text-xl" style={{ fontFamily: 'Luxora Grotesk, sans-serif' }}>
           CEO - Ankit Soni
         </h2>
@@ -35,7 +35,7 @@ const Founder = () => {
       </div>
 
       {/* Rectangle with Orange Background (Top Right) */}
-      <div className="hidden md:block absolute top-28 right-0 w-[380px] h-[230px] bg-[#202C61] font-[16px] mx-8 mt-16 rounded-[20px] p-6">
+      <div className="hidden md:block absolute top-28 right-0 w-[380px] h-[230px] bg-[#202C61] font-[16px] mx-16 mt-16 rounded-[20px] p-6">
         <h2 className="text-white font-bold text-xl" style={{ fontFamily: 'Luxora Grotesk, sans-serif' }}>
         CEO - Mayank Chapanera
         </h2>
